@@ -4,7 +4,7 @@
 
 - **Lab:** 6-1-back-end-fundamentals
 - **Deadline (Riyadh / UTC+03:00):** 2026-03-30T20:59:00+03:00
-- **Last commit time (from git log):** 2026-03-30T08:45:59+03:00
+- **Last commit time (from git log):** 2026-03-30T08:50:40+03:00
 - **Submission marks:** **20/20** (On time)
 
 
@@ -71,42 +71,37 @@
 **Deductions / Notes**
 - ✅ No deductions. Good job!
 
-### TODO 7: Create the "/student" JSON route (server.js) — **3.33/10**
+### TODO 7: Create the "/student" JSON route (server.js) — **10/10**
 
 **Checklist**
 - ✅ Creates GET route for "/student"
-- ❌ Uses res.json(...) in the "/student" route
-- ❌ Student JSON includes top-level name and major fields
+- ✅ Uses res.json(...) in the "/student" route
+- ✅ Student JSON includes top-level name and major fields
 
 **Deductions / Notes**
-- ❗ Missing: Uses res.json(...) in the "/student" route
-- ❗ Missing: Student JSON includes top-level name and major fields
+- ✅ No deductions. Good job!
 
-### TODO 8: Request student data in App.jsx using fetch — **0/9**
+### TODO 8: Request student data in App.jsx using fetch — **9/9**
 
 **Checklist**
-- ❌ Uses useEffect(...) for request on page load
-- ❌ Fetches the "/student" route (exact port not enforced)
-- ❌ Converts response to JSON
-- ❌ Uses returned data in a then(...) block or equivalent
+- ✅ Uses useEffect(...) for request on page load
+- ✅ Fetches the "/student" route (exact port not enforced)
+- ✅ Converts response to JSON
+- ✅ Uses returned data in a then(...) block or equivalent
 
 **Deductions / Notes**
-- ❗ Missing: Uses useEffect(...) for request on page load
-- ❗ Missing: Fetches the "/student" route (exact port not enforced)
-- ❗ Missing: Converts response to JSON
-- ❗ Missing: Uses returned data in a then(...) block or equivalent
+- ✅ No deductions. Good job!
 
-### TODO 9: Store and display student data in App.jsx — **4.5/9**
+### TODO 9: Store and display student data in App.jsx — **9/9**
 
 **Checklist**
-- ❌ Creates student state with useState(...)
-- ❌ Stores fetched response in student state using setStudent(...)
+- ✅ Creates student state with useState(...)
+- ✅ Stores fetched response in student state using setStudent(...)
 - ✅ Displays student name in JSX
 - ✅ Displays student major in JSX
 
 **Deductions / Notes**
-- ❗ Missing: Creates student state with useState(...)
-- ❗ Missing: Stores fetched response in student state using setStudent(...)
+- ✅ No deductions. Good job!
 
 ---
 
