@@ -16,9 +16,9 @@ app.get('/', (req, res) => {
 });
 
 // TODO 6: Create the "/about" route
-
-
-
+app.get('/about', (req, res) => {
+  res.send('About us');
+});
 // TODO 7: Create the "/student" route
 
 
