@@ -9,7 +9,6 @@ const app = express();
 // TODO 3: Allow React to access the server
 app.use(cors());
 
-
 // TODO 5: Create the home route "/"
 app.get('/', (req, res) => {
   res.send('Welcome to the home page!');
@@ -19,9 +18,11 @@ app.get('/', (req, res) => {
 app.get('/about', (req, res) => {
   res.send('About us');
 });
+
 // TODO 7: Create the "/student" route
-
-
+app.get('/student', (req, res) => {
+  res.json({ name: "John Doe", major: "Software Engineering" });
+});
 
 // TODO 4: Start the server on port 3000
 app.listen(3000, () => {
